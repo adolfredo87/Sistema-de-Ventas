@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{89F0AAA9-74FC-443C-B9B6-E49948234E97}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Presentacion.My.MyApplication</StartupObject>
+    <RootNamespace>Presentacion</RootNamespace>
+    <AssemblyName>Presentacion</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Presentacion.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Presentacion.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Maestros\frmCliente.Designer.vb">
+      <DependentUpon>frmCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\frmCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestros\frmProducto.Designer.vb">
+      <DependentUpon>frmProducto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\frmProducto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Operaciones\frmVentas.Designer.vb">
+      <DependentUpon>frmVentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Operaciones\frmVentas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\frmVentanaPrincipal.Designer.vb">
+      <DependentUpon>frmVentanaPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\frmVentanaPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\OpcionMenu.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Maestros\frmCliente.resx">
+      <DependentUpon>frmCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestros\frmProducto.resx">
+      <DependentUpon>frmProducto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operaciones\frmVentas.resx">
+      <DependentUpon>frmVentas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\frmVentanaPrincipal.resx">
+      <DependentUpon>frmVentanaPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Imagenes\hbotons\box.png" />
+    <None Include="Imagenes\hbotons\customer.png" />
+    <None Include="Imagenes\msnmessenger_fond_Black_Sale.ppt" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Entidad\EntidadNegocio.General\EntidadNegocio.General.vbproj">
+      <Project>{659ADFF0-06B2-4122-8AEE-475141A46E93}</Project>
+      <Name>EntidadNegocio.General</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Logica\LogicaNegocio.General\LogicaNegocio.General.vbproj">
+      <Project>{91765F86-7769-42AA-817E-3807CB331567}</Project>
+      <Name>LogicaNegocio.General</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Presentacion.Plantilla\Presentacion.Plantilla.vbproj">
+      <Project>{329BDEA4-8E1F-4E94-8322-02DBCE9F3854}</Project>
+      <Name>Presentacion.Plantilla</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagenes\hbotons\about.png" />
+    <Content Include="Imagenes\hbotons\add.png" />
+    <Content Include="Imagenes\hbotons\add1.PNG" />
+    <Content Include="Imagenes\hbotons\albuns.png" />
+    <Content Include="Imagenes\hbotons\back.png" />
+    <Content Include="Imagenes\hbotons\back1.png" />
+    <Content Include="Imagenes\hbotons\back3.png" />
+    <Content Include="Imagenes\hbotons\caja.png" />
+    <Content Include="Imagenes\hbotons\calc.png" />
+    <Content Include="Imagenes\hbotons\calc1.png" />
+    <Content Include="Imagenes\hbotons\category.png" />
+    <Content Include="Imagenes\hbotons\chofer.png" />
+    <Content Include="Imagenes\hbotons\clock.png" />
+    <Content Include="Imagenes\hbotons\close.png" />
+    <Content Include="Imagenes\hbotons\contact.png" />
+    <Content Include="Imagenes\hbotons\delete.png" />
+    <Content Include="Imagenes\hbotons\delete2.png" />
+    <Content Include="Imagenes\hbotons\delete3.png" />
+    <Content Include="Imagenes\hbotons\densidad.png" />
+    <Content Include="Imagenes\hbotons\edit.png" />
+    <Content Include="Imagenes\hbotons\exit.png" />
+    <Content Include="Imagenes\hbotons\folder.png" />
+    <Content Include="Imagenes\hbotons\help.png" />
+    <Content Include="Imagenes\hbotons\kghostview.png" />
+    <Content Include="Imagenes\hbotons\links.png" />
+    <Content Include="Imagenes\hbotons\new.png" />
+    <Content Include="Imagenes\hbotons\news.png" />
+    <Content Include="Imagenes\hbotons\ok.png" />
+    <Content Include="Imagenes\hbotons\page_new_refresh.png" />
+    <Content Include="Imagenes\hbotons\page_refresh.png" />
+    <Content Include="Imagenes\hbotons\planta.png" />
+    <Content Include="Imagenes\hbotons\print.png" />
+    <Content Include="Imagenes\hbotons\product.png" />
+    <Content Include="Imagenes\hbotons\profile.png" />
+    <Content Include="Imagenes\hbotons\refresh.png" />
+    <Content Include="Imagenes\hbotons\refresh_Green.png" />
+    <Content Include="Imagenes\hbotons\report.png" />
+    <Content Include="Imagenes\hbotons\save.png" />
+    <Content Include="Imagenes\hbotons\search.png" />
+    <Content Include="Imagenes\hbotons\search1.png" />
+    <Content Include="Imagenes\hbotons\search_black.png" />
+    <Content Include="Imagenes\hbotons\settings.png" />
+    <Content Include="Imagenes\hbotons\stock_task.ico" />
+    <Content Include="Imagenes\hbotons\supplier.png" />
+    <Content Include="Imagenes\hbotons\tasks.png" />
+    <Content Include="Imagenes\hbotons\transp.png" />
+    <Content Include="Imagenes\hbotons\transport.png" />
+    <Content Include="Imagenes\hbotons\truck.png" />
+    <Content Include="Imagenes\hbotons\truck_16x16.ico" />
+    <Content Include="Imagenes\hbotons\users.png" />
+    <Content Include="Imagenes\hbotons\wiki.png" />
+    <Content Include="Imagenes\header_bkg_wol2_Black.jpg" />
+    <Content Include="Imagenes\hpantalla\about.png" />
+    <Content Include="Imagenes\hpantalla\ajax-loader.gif" />
+    <Content Include="Imagenes\hpantalla\box.png" />
+    <Content Include="Imagenes\hpantalla\chofer.png" />
+    <Content Include="Imagenes\hpantalla\densidad.png" />
+    <Content Include="Imagenes\hpantalla\destino.png" />
+    <Content Include="Imagenes\hpantalla\label_sale_red.ico" />
+    <Content Include="Imagenes\hpantalla\label_sale_red.png" />
+    <Content Include="Imagenes\hpantalla\loading.gif" />
+    <Content Include="Imagenes\hpantalla\material.png" />
+    <Content Include="Imagenes\hpantalla\planta.png" />
+    <Content Include="Imagenes\hpantalla\reciclable.png" />
+    <Content Include="Imagenes\hpantalla\transp.png" />
+    <Content Include="Imagenes\hpantalla\transport.png" />
+    <Content Include="Imagenes\hpantalla\transporte.png" />
+    <Content Include="Imagenes\hpantalla\truck.ico" />
+    <Content Include="Imagenes\hpantalla\vehiculo.PNG" />
+    <Content Include="Imagenes\LabelBackgroun_Black.bmp" />
+    <Content Include="Imagenes\msnmessenger_fond_Black.png" />
+    <None Include="Imagenes\msnmessenger_fond_Black_Sale.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
