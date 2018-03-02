@@ -217,7 +217,7 @@ Public Class frmVentanaPrincipal
     End Sub
 
     Private Sub Acerca_ToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles Acerca_ToolStripMenuItem.Click
-
+		'Acerca
     End Sub
 
     Private Sub ListBoxResultBusqueda_SelectedIndexChanged(sender As System.Object, e As System.EventArgs) Handles ListBoxResultBusqueda.SelectedIndexChanged
