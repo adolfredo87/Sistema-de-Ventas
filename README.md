@@ -43,8 +43,6 @@ Sistemas Adicionales 	- Visual Studio 2010 y SQL Server 2008
 
 Sistema de Ventas:
 
-Descomprimir el WinRar Ventas para Ver el codigo Fuente
-
 Sistema de Ventas desarrollado en Vb.Net con SQL Server 2008: 
 
 BD: Diagrama ER, Creacion de Tablas, Creacion de Store Procedure.
