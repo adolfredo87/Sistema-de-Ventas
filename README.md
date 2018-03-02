@@ -7,9 +7,9 @@ Demostración en Vb.Net (WinForms) para Reclutadores
 Archivo Léeme de Sistema de Ventas - (WinForms)
 -----------------------------------------------
 
-Gracias por intersarte en mi perfil el siguiente software tiene como finalidad ofrecercelo al equipo tecnico para su evaluacion, en el pueden comprobar las diferenctes funcionalidades que desarrolle.
-Incluye todas las características de desarrollo que en mi opinión, debería tener un sistema y las practicas de desarrollo que se usan en la industria del software.
-Espero que sea de su agrado poder cubrir sus expectactivas y poder encajar en su perfil profecional y que puedan encontrar en mi trabajo al profecional ideal con los conocimientos avanzados en el Desarrollo .Net Desktop (WinForms). 
+Gracias por interesarte en mi perfil el siguiente software tiene como finalidad ofrecérselo al equipo técnico para su evaluación, en el pueden comprobar las diferentes funcionalidades que desarrolle.
+Incluye todas las características de desarrollo que en mi opinión, debería tener un sistema y las prácticas de desarrollo que se usan en la industria del software.
+Espero que sea de su agrado poder cubrir sus expectativas y poder encajar en su perfil profesional y que puedan encontrar en mi trabajo al profesional ideal con los conocimientos avanzados en el Desarrollo .Net Desktop (WinForms).
 
 Muchas gracias.
 
@@ -45,10 +45,10 @@ Sistema de Ventas:
 
 Sistema de Ventas desarrollado en Vb.Net con SQL Server 2008: 
 
-BD: Diagrama ER, Creacion de Tablas, Creacion de Store Procedure.
+BD: Diagrama ER, Creación de Tablas, Creación de Store Procedure.
 
 Metodología: Desarrollo modular en capas N-tiers (multi-capa).
 
 Vb.Net: Vb.Net (WinForms), Vb.Net Linq, Colecciones Lsit<Entidad>, Delegados, XML, etc.
 
-Software (c) 2018 Adolfredo Belizario. Este Software fue creado por Adolfredo Belizario bajo licencia privada con el proposito de mostrar mi trabajo a Reclutadores en Desarrollo en .Net y C#
+Software (c) 2018 Adolfredo Belizario. Este Software fue creado por Adolfredo Belizario bajo licencia privada con el propósito de mostrar mi trabajo a Reclutadores en Desarrollo en .Net y C#
