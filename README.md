@@ -49,6 +49,6 @@ BD: Diagrama ER, Creación de Tablas, Creación de Store Procedure, Creación Vi
 
 Metodología: Desarrollo modular en capas N-tiers (multi-capa).
 
-Vb.Net: Vb.Net (WinForms), Vb.Net Linq, Colecciones Lsit<Entidad>, Delegados, XML, etc.
+Vb.Net: Vb.Net (WinForms), Vb.Net Linq, Expresiones Lambda Vb.Net, Colecciones Lsit<Entidad>, Delegados, XML, etc.
 
-Software (c) 2018 Adolfredo Belizario. Este Software fue creado por Adolfredo Belizario bajo licencia GNU-GPL con el propósito de mostrar mi trabajo a Reclutadores en Desarrollo en .Net y C#
+Software (c) 2018 Adolfredo Belizario. Este Software fue creado por Adolfredo Belizario bajo licencia GPL v3.0 con el propósito de mostrar mi trabajo a Reclutadores en Desarrollo en .Net y C#
