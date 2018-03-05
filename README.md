@@ -9,7 +9,7 @@ Archivo Léeme de Sistema de Ventas - (WinForms)
 
 Gracias por interesarte en mi perfil el siguiente software tiene como finalidad ofrecérselo al equipo técnico para su evaluación, en el pueden comprobar las diferentes funcionalidades que desarrolle.
 Incluye todas las características de desarrollo que en mi opinión, debería tener un sistema y las prácticas de desarrollo que se usan en la industria del software.
-Espero que sea de su agrado poder cubrir sus expectativas y poder encajar en su perfil profesional y que puedan encontrar en mi trabajo al profesional ideal con los conocimientos avanzados en el Desarrollo en C# (ASP.Net MVC).
+Espero que sea de su agrado poder cubrir sus expectativas y poder encajar en su perfil profesional y que puedan encontrar en mi trabajo al profesional ideal con los conocimientos avanzados en el Desarrollo en Vb.Net (WinForms).
 
 Muchas gracias.
 
