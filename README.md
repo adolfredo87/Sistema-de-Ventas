@@ -9,7 +9,7 @@ Archivo Léeme de Sistema de Ventas - (WinForms)
 
 Gracias por interesarte en mi perfil el siguiente software tiene como finalidad ofrecérselo al equipo técnico para su evaluación, en el pueden comprobar las diferentes funcionalidades que desarrolle.
 Incluye todas las características de desarrollo que en mi opinión, debería tener un sistema y las prácticas de desarrollo que se usan en la industria del software.
-Espero que sea de su agrado poder cubrir sus expectativas y poder encajar en su perfil profesional y que puedan encontrar en mi trabajo al profesional ideal con los conocimientos avanzados en el Desarrollo .Net Desktop (WinForms).
+Espero que sea de su agrado poder cubrir sus expectativas y poder encajar en su perfil profesional y que puedan encontrar en mi trabajo al profesional ideal con los conocimientos avanzados en el Desarrollo en C# (ASP.Net MVC).
 
 Muchas gracias.
 
@@ -45,10 +45,10 @@ Sistema de Ventas:
 
 Sistema de Ventas desarrollado en Vb.Net con SQL Server 2008: 
 
-BD: Diagrama ER, Creación de Tablas, Creación de Store Procedure.
+BD: Diagrama ER, Creación de Tablas, Creación de Store Procedure, Creación Vistas SQL, Programacion SQL.
 
 Metodología: Desarrollo modular en capas N-tiers (multi-capa).
 
 Vb.Net: Vb.Net (WinForms), Vb.Net Linq, Colecciones Lsit<Entidad>, Delegados, XML, etc.
 
-Software (c) 2018 Adolfredo Belizario. Este Software fue creado por Adolfredo Belizario bajo licencia privada con el propósito de mostrar mi trabajo a Reclutadores en Desarrollo en .Net y C#
+Software (c) 2018 Adolfredo Belizario. Este Software fue creado por Adolfredo Belizario bajo licencia GNU-GPL con el propósito de mostrar mi trabajo a Reclutadores en Desarrollo en .Net y C#
